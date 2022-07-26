@@ -1,0 +1,44 @@
+Bem
+
+Block Element Modifier
+
+Bloco Elemento Modificador
+
+bloco 
+
+bloco__elemento
+
+bloco--modificador
+
+bloco__elemento--modificador
+
+Bem.. foi usado no html
+
+e o Atomic design foi usado no css
+
+e foi ordenado por ordem alfetico.
+
+responsiblidade usado 0 para celular 768px para tablet e  992px para desktop
+
+@media screen and (min-width: 0) {
+    .receita {
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+        .receita {
+            margin-right: 2.5rem;
+            width: calc(33.33% - 2.5rem);
+    }
+}
+
+@media screen and (min-width: 992px){
+        .receita {
+            margin-right: 5rem;
+            width: calc(25% - 5rem);
+    }
+    
+}

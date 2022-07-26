@@ -1,0 +1,33 @@
+.pessoa__imagem {
+    /* background: red;  só usado de teste para verificar o tamanho criado das imagens*/ 
+    background-position: center;/* a imagem fique centralida ao centro */
+    background-repeat: no-repeat; /* não repetir */
+    border-radius: 100%; /* arrendondou a foto */
+    background-size: cover; /* cobrir todo tamanho */
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;    
+}
+
+/* <div class="pessoa__imagem pessoa__imagem--roberta"> */
+.pessoa__imagem--roberta {
+    background-image: url('../../img/pessoas/roberta.jpg');
+
+}
+
+.pessoa__imagem--marcela {
+    background-image: url('../../img/pessoas/marcela.jpg');
+
+}
+
+
+.pessoa__imagem--andreia {
+    background-image: url('../../img/pessoas/andreia.jpg');
+
+}
+
+
+/* .pessoa__imagem {
+    background-image: url('../../img/banner.jpg');
+
+} */
